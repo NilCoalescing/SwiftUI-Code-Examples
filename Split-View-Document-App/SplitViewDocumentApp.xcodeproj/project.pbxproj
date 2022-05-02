@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CC2361625B58E11005933AE /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2361525B58E11005933AE /* Sidebar.swift */; };
+		2CC2361725B58E11005933AE /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2361525B58E11005933AE /* Sidebar.swift */; };
+		2CC2361B25B58E3C005933AE /* NoteLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2361A25B58E3C005933AE /* NoteLink.swift */; };
+		2CC2361C25B58E3C005933AE /* NoteLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2361A25B58E3C005933AE /* NoteLink.swift */; };
+		2CC2362025B58E78005933AE /* NoteEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2361F25B58E78005933AE /* NoteEditView.swift */; };
+		2CC2362125B58E78005933AE /* NoteEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2361F25B58E78005933AE /* NoteEditView.swift */; };
+		2CC2362525B58E95005933AE /* Dismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2362425B58E95005933AE /* Dismiss.swift */; };
+		2CC2362625B58E95005933AE /* Dismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2362425B58E95005933AE /* Dismiss.swift */; };
+		2CE8954325AC09B7004ACA72 /* SplitViewDocumentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8952F25AC09B4004ACA72 /* SplitViewDocumentAppApp.swift */; };
+		2CE8954425AC09B7004ACA72 /* SplitViewDocumentAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8952F25AC09B4004ACA72 /* SplitViewDocumentAppApp.swift */; };
+		2CE8954525AC09B7004ACA72 /* SplitViewDocumentAppDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8953025AC09B4004ACA72 /* SplitViewDocumentAppDocument.swift */; };
+		2CE8954625AC09B7004ACA72 /* SplitViewDocumentAppDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8953025AC09B4004ACA72 /* SplitViewDocumentAppDocument.swift */; };
+		2CE8954725AC09B7004ACA72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8953125AC09B4004ACA72 /* ContentView.swift */; };
+		2CE8954825AC09B7004ACA72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8953125AC09B4004ACA72 /* ContentView.swift */; };
+		2CE8954925AC09B7004ACA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8953225AC09B6004ACA72 /* Assets.xcassets */; };
+		2CE8954A25AC09B7004ACA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8953225AC09B6004ACA72 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CC2361525B58E11005933AE /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		2CC2361A25B58E3C005933AE /* NoteLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteLink.swift; sourceTree = "<group>"; };
+		2CC2361F25B58E78005933AE /* NoteEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditView.swift; sourceTree = "<group>"; };
+		2CC2362425B58E95005933AE /* Dismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dismiss.swift; sourceTree = "<group>"; };
+		2CC2362925B58F25005933AE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2CC2362C25B590AC005933AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2CE8952F25AC09B4004ACA72 /* SplitViewDocumentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewDocumentAppApp.swift; sourceTree = "<group>"; };
+		2CE8953025AC09B4004ACA72 /* SplitViewDocumentAppDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewDocumentAppDocument.swift; sourceTree = "<group>"; };
+		2CE8953125AC09B4004ACA72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CE8953225AC09B6004ACA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE8953725AC09B7004ACA72 /* SplitViewDocumentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewDocumentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE8953A25AC09B7004ACA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE8953F25AC09B7004ACA72 /* SplitViewDocumentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewDocumentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE8954125AC09B7004ACA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE8954225AC09B7004ACA72 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE8953425AC09B7004ACA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE8953C25AC09B7004ACA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE8952925AC09B3004ACA72 = {
+			isa = PBXGroup;
+			children = (
+				2CC2362C25B590AC005933AE /* README.md */,
+				2CC2362925B58F25005933AE /* .gitignore */,
+				2CE8952E25AC09B4004ACA72 /* Shared */,
+				2CE8953925AC09B7004ACA72 /* iOS */,
+				2CE8954025AC09B7004ACA72 /* macOS */,
+				2CE8953825AC09B7004ACA72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE8952E25AC09B4004ACA72 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8952F25AC09B4004ACA72 /* SplitViewDocumentAppApp.swift */,
+				2CE8953025AC09B4004ACA72 /* SplitViewDocumentAppDocument.swift */,
+				2CE8953125AC09B4004ACA72 /* ContentView.swift */,
+				2CC2362425B58E95005933AE /* Dismiss.swift */,
+				2CC2361A25B58E3C005933AE /* NoteLink.swift */,
+				2CE8953225AC09B6004ACA72 /* Assets.xcassets */,
+				2CC2361525B58E11005933AE /* Sidebar.swift */,
+				2CC2361F25B58E78005933AE /* NoteEditView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2CE8953825AC09B7004ACA72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8953725AC09B7004ACA72 /* SplitViewDocumentApp.app */,
+				2CE8953F25AC09B7004ACA72 /* SplitViewDocumentApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE8953925AC09B7004ACA72 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8953A25AC09B7004ACA72 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2CE8954025AC09B7004ACA72 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8954125AC09B7004ACA72 /* Info.plist */,
+				2CE8954225AC09B7004ACA72 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE8953625AC09B7004ACA72 /* SplitViewDocumentApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE8954D25AC09B7004ACA72 /* Build configuration list for PBXNativeTarget "SplitViewDocumentApp (iOS)" */;
+			buildPhases = (
+				2CE8953325AC09B7004ACA72 /* Sources */,
+				2CE8953425AC09B7004ACA72 /* Frameworks */,
+				2CE8953525AC09B7004ACA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplitViewDocumentApp (iOS)";
+			productName = "SplitViewDocumentApp (iOS)";
+			productReference = 2CE8953725AC09B7004ACA72 /* SplitViewDocumentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CE8953E25AC09B7004ACA72 /* SplitViewDocumentApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE8955025AC09B7004ACA72 /* Build configuration list for PBXNativeTarget "SplitViewDocumentApp (macOS)" */;
+			buildPhases = (
+				2CE8953B25AC09B7004ACA72 /* Sources */,
+				2CE8953C25AC09B7004ACA72 /* Frameworks */,
+				2CE8953D25AC09B7004ACA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplitViewDocumentApp (macOS)";
+			productName = "SplitViewDocumentApp (macOS)";
+			productReference = 2CE8953F25AC09B7004ACA72 /* SplitViewDocumentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE8952A25AC09B3004ACA72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2CE8953625AC09B7004ACA72 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2CE8953E25AC09B7004ACA72 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 2CE8952D25AC09B3004ACA72 /* Build configuration list for PBXProject "SplitViewDocumentApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE8952925AC09B3004ACA72;
+			productRefGroup = 2CE8953825AC09B7004ACA72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE8953625AC09B7004ACA72 /* SplitViewDocumentApp (iOS) */,
+				2CE8953E25AC09B7004ACA72 /* SplitViewDocumentApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE8953525AC09B7004ACA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE8954925AC09B7004ACA72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE8953D25AC09B7004ACA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE8954A25AC09B7004ACA72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE8953325AC09B7004ACA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC2362025B58E78005933AE /* NoteEditView.swift in Sources */,
+				2CE8954325AC09B7004ACA72 /* SplitViewDocumentAppApp.swift in Sources */,
+				2CE8954525AC09B7004ACA72 /* SplitViewDocumentAppDocument.swift in Sources */,
+				2CC2361625B58E11005933AE /* Sidebar.swift in Sources */,
+				2CE8954725AC09B7004ACA72 /* ContentView.swift in Sources */,
+				2CC2361B25B58E3C005933AE /* NoteLink.swift in Sources */,
+				2CC2362525B58E95005933AE /* Dismiss.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE8953B25AC09B7004ACA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC2362125B58E78005933AE /* NoteEditView.swift in Sources */,
+				2CE8954425AC09B7004ACA72 /* SplitViewDocumentAppApp.swift in Sources */,
+				2CE8954625AC09B7004ACA72 /* SplitViewDocumentAppDocument.swift in Sources */,
+				2CC2361725B58E11005933AE /* Sidebar.swift in Sources */,
+				2CE8954825AC09B7004ACA72 /* ContentView.swift in Sources */,
+				2CC2361C25B58E3C005933AE /* NoteLink.swift in Sources */,
+				2CC2362625B58E95005933AE /* Dismiss.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CE8954B25AC09B7004ACA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CE8954C25AC09B7004ACA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2CE8954E25AC09B7004ACA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SplitViewDocumentApp;
+				PRODUCT_NAME = SplitViewDocumentApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CE8954F25AC09B7004ACA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SplitViewDocumentApp;
+				PRODUCT_NAME = SplitViewDocumentApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE8955125AC09B7004ACA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SplitViewDocumentApp;
+				PRODUCT_NAME = SplitViewDocumentApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2CE8955225AC09B7004ACA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SplitViewDocumentApp;
+				PRODUCT_NAME = SplitViewDocumentApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE8952D25AC09B3004ACA72 /* Build configuration list for PBXProject "SplitViewDocumentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE8954B25AC09B7004ACA72 /* Debug */,
+				2CE8954C25AC09B7004ACA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE8954D25AC09B7004ACA72 /* Build configuration list for PBXNativeTarget "SplitViewDocumentApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE8954E25AC09B7004ACA72 /* Debug */,
+				2CE8954F25AC09B7004ACA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE8955025AC09B7004ACA72 /* Build configuration list for PBXNativeTarget "SplitViewDocumentApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE8955125AC09B7004ACA72 /* Debug */,
+				2CE8955225AC09B7004ACA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE8952A25AC09B3004ACA72 /* Project object */;
+}
