@@ -73,14 +73,9 @@ struct AreaChartForName: ChartContent {
         
         RuleMark(y: .value("", 0))
         .foregroundStyle(by: .value("Baby Name", name))
-        .accessibilityHidden (true)
-        
-        RuleMark(xEnd: 100, y: .value("", 0))
-        .lineStyle(StrokeStyle(lineWidth: 0))
         .annotation(position: .top, alignment: .leading, spacing: 2) {
             Text(name).font(.subheadline)
         }
-        .foregroundStyle(by: .value("Baby Name", name))
         .accessibilityHidden (true)
     }
 }
