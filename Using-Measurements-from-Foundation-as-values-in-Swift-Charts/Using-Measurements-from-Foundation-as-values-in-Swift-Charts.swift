@@ -49,7 +49,10 @@ struct ContentView: View {
             
             Chart(walks, id: \.title) { walk in
                 BarMark(
-                    x: .value("Duration", walk.duration),
+                    x: .value(
+                        "Duration",
+                        PlottableMeasurement(measurement: walk.duration)
+                    ),
                     y: .value("Walk", walk.title)
                 )
             }
@@ -57,7 +60,8 @@ struct ContentView: View {
                 AxisMarks { value in
                     AxisGridLine()
                     AxisValueLabel("""
-                    \(value.as(Measurement.self)!
+                    \(value.as(PlottableMeasurement.self)!
+                        .measurement
                         .converted(to: .hours),
                     format: .measurement(
                         width: .narrow,
@@ -77,12 +81,21 @@ struct ContentView: View {
     }
 }
 
-extension Measurement: Plottable where UnitType == UnitDuration {
-    public var primitivePlottable: Double {
-        self.converted(to: .minutes).value
-    }
+struct PlottableMeasurement<UnitType: Unit> {
+    var measurement: Measurement<UnitType>
+}
 
-    public init?(primitivePlottable: Double) {
-        self.init(value: primitivePlottable, unit: .minutes)
+extension PlottableMeasurement: Plottable where UnitType == UnitDuration {
+    var primitivePlottable: Double {
+        self.measurement.converted(to: .minutes).value
+    }
+    
+    init?(primitivePlottable: Double) {
+        self.init(
+            measurement: Measurement(
+                value: primitivePlottable,
+                unit: .minutes
+            )
+        )
     }
 }
