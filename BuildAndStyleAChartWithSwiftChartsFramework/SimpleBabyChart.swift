@@ -38,9 +38,8 @@ struct SimpleBabyChart: View {
                         ),
                         startPoint: .top,
                         endPoint: .bottom
-                    )
+                    ).blendMode(.darken)
                 )
-                .blendMode(.darken)
             }
             
             ForEach(datesOfMaximumProportion, id: \.name) { point in
