@@ -20,9 +20,7 @@ struct SettingsButton: View {
     var body: some View {
         ViewThatFits {
             Text("Open Settings")
-                .fixedSize(horizontal: true, vertical: false)
             Text("Settings")
-                .fixedSize(horizontal: true, vertical: false)
             Image(systemName: "gearshape")
         }
         .lineLimit(1)

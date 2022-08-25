@@ -25,9 +25,8 @@ struct ExpandableText: View {
                 isExpanded = false
             }
         } else {
-            ViewThatFits {
+            ViewThatFits(in: .vertical) {
                 Text(text)
-                    .fixedSize(horizontal: false, vertical: true)
                 VStack {
                     Text(text)
                     Button("Show more") {

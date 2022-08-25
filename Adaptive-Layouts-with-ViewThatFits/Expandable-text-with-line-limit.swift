@@ -35,9 +35,8 @@ struct ExpandableTextWithLineLimit: View {
         Text(text)
             .lineLimit(isExpanded ? nil : initialLineLimit)
             .background {
-                ViewThatFits {
+                ViewThatFits(in: .vertical) {
                     Text(text)
-                        .fixedSize(horizontal: false, vertical: true)
                         .hidden()
                     Color.clear
                         .onAppear {
