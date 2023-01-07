@@ -53,7 +53,6 @@ struct NoteList: View {
         .toolbar {
             ToolbarItem(placement: .bottomBar) {
                 HStack {
-                    Spacer()
                     Button {
                         let newNote = Note(text: "", id: appState.notes.count)
                         appState.notes.append(newNote)
