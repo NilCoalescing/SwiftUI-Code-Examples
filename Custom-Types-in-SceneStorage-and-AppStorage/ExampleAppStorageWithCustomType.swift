@@ -12,7 +12,7 @@ struct Recipe: Identifiable {
 
 typealias PinnedRecipes = [UUID]
 
-extension PinnedRecipes: RawRepresentable {
+extension PinnedRecipes: @retroactive RawRepresentable {
     public init?(rawValue: String) {
         guard let data = rawValue.data(using: .utf8),
               let result = try? JSONDecoder()
