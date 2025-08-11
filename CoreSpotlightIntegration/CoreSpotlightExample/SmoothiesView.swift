@@ -49,19 +49,21 @@ struct SmoothiesView: View {
         }
         .task(id: searchText) {
             guard !searchText.isEmpty else { return }
-            try? await Task.sleep(for: .seconds(0.3))
-            
-            let context = CSUserQueryContext()
-            context.enableRankedResults = true
-            
-            let query = CSUserQuery(
-                userQueryString: searchText,
-                userQueryContext: context
-            )
-            
-            queryItems = []
             
             do {
+                try await Task.sleep(for: .seconds(0.3))
+            
+                let context = CSUserQueryContext()
+                context.enableRankedResults = true
+                
+                let query = CSUserQuery(
+                    userQueryString: searchText,
+                    userQueryContext: context
+                )
+                
+                queryItems = []
+            
+            
                 for try await element in query.responses {
                     switch(element) {
                     case .item(let item):
@@ -74,6 +76,7 @@ struct SmoothiesView: View {
                 }
             } catch {
                 // handle possible errors
+                return
             }
             
             queryItems.sort { first, second in
